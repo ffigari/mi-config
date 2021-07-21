@@ -1,0 +1,12 @@
+[user]
+	name = Francisco Figari
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[init]
+	defaultBranch = master
+[core]
+	editor = vim
+[alias]
+	tree = log --graph --decorate --pretty=oneline --abbrev-commit
