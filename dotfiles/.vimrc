@@ -47,5 +47,6 @@ nnoremap <Leader>f :GFiles<CR>
 nnoremap <Leader>.f :Files<CR>
 vnoremap <Leader>r "zy:%s/\<<C-r>z\>/<C-r>z/g<left><left>
 vnoremap <Leader>s "zy:Ag <C-r>z<CR>
+nnoremap <Leader>h :set hlsearch!<CR>
 
 set wildignore+=*/node_modules/*,*/dist/*,*/.git/*
