@@ -20,7 +20,7 @@ set list
 set listchars=tab:>-
 " Desactivar volver al principio de línea luego de algunos comandos
 set nosol
-" Abrir splits de una manera más razonable
+" Abrir splits de una manera más natural
 set splitbelow
 set splitright
 " Para poder copiar al clipboard del sistema
@@ -31,6 +31,8 @@ set clipboard=unnamed
 set foldmethod=indent
 set nofoldenable
 set foldlevel=2
+" Para evitar que se redibuje la pantalla mientras se corre un macro
+set lazyredraw
 
 noremap ñ l
 noremap l k
