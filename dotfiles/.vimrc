@@ -33,6 +33,8 @@ set nofoldenable
 set foldlevel=2
 " Para evitar que se redibuje la pantalla mientras se corre un macro
 set lazyredraw
+" Mostrar siempre la barra de arriba con los nombres de los archivos
+set showtabline=2
 
 noremap ñ l
 noremap l k
