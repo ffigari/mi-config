@@ -143,7 +143,7 @@ for_window [title="alsamixer"] floating enable border pixel 1
 for_window [class="Nitrogen"] floating enable sticky enable border normal
 
 assign [class="TelegramDesktop"] $ws1
-assign [class="discord"] $ws1
+for_window [class="discord"] move to workspace 1
 
 assign [class="qBittorrent"] $ws7
 
