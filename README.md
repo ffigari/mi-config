@@ -22,6 +22,7 @@ the_silver_searcher
 unzip
 pkgfile
 xclip
+numlockx
 ```
 
 [vim-plug](https://github.com/junegunn/vim-plug):
