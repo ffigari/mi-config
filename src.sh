@@ -7,6 +7,7 @@ dotfiles_paths=(
   .zshrc
   .gitconfig
   .i3/config
+  .Xresources
 )
 
 move_files_around () {
