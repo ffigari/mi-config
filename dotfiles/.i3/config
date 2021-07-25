@@ -20,6 +20,8 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec terminal
+bindsym $mod+Shift+Return exec terminal -name coding-terminal -g 90x35
+for_window [instance="^coding-terminal$"] floating enable
 
 # kill focused window
 bindsym $mod+Shift+q kill
