@@ -1,0 +1,46 @@
+{
+  "settingsVersion": "1.67",
+  "exclusionRules": [
+    {
+      "pattern": "https?://www.notion.so/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://docs.google.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://connect.unity3dusercontent.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://trello.com/b/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "http://madebyevan.com/fsm/",
+      "passKeys": ""
+    },
+    {
+      "pattern": "file:///home/francisco/projects/tesis-esta-vez-en-serio/*",
+      "passKeys": ""
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "# Insert your preferred key mappings here.\n\nunmap h\nunmap j\nunmap k\nunmap l\nunmap ñ\nunmap H\nunmap J\nunmap K\nunmap L\nunmap Ñ\n\nmap J goBack\nmap K  previousTab\nmap L nextTab\nmap Ñ goForward\n\nmap k scrollDown\nmap l scrollUp\nmap j scrollLeft\nmap ñ scrollRight",
+  "linkHintCharacters": "sadfjklewcmpgh",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": true,
+  "searchEngines": "gm: https://www.google.com/maps?q=%s\n\ni2e: https://translate.google.com/#en/es/%s\nf2e: https://translate.google.com/#fr/es/%s\np2e: https://translate.google.com/#pr/es/%s\ne2i: https://translate.google.com/#es/en/%s\ne2f: https://translate.google.com/#es/fr/%s\ne2p: https://translate.google.com/#es/pr/%s\n\ngr: https://www.goodreads.com/search?q=%s\nlb: https://letterboxd.com/search/%s",
+  "searchUrl": "https://duckduckgo.com/?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}
