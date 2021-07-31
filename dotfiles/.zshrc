@@ -23,4 +23,4 @@ npm() {
   npm $@
 }
 
-alias tree="tree --filelimit=35 -L 2 --dirsfirst"
+alias tree="tree --filelimit=35 -L 2 --dirsfirst --noreport"
