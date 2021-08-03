@@ -35,3 +35,11 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
+## misc
+
+- [
+  instalar pulseaudio para que discord detecte los inputs y outputs de audio
+](
+  https://bbs.archlinux.org/viewtopic.php?id=250499
+)
