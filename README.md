@@ -43,3 +43,9 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ](
   https://bbs.archlinux.org/viewtopic.php?id=250499
 )
+
+- [
+  cambiar el tamaño del font on the fly
+](
+  https://github.com/jhedden/urxvt-font-size
+)
