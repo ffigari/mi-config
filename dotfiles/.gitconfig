@@ -10,3 +10,4 @@
 	editor = vim
 [alias]
 	tree = log --graph --decorate --pretty=oneline --abbrev-commit
+	trea = log --graph --decorate --pretty=oneline --abbrev-commit --all
