@@ -10,7 +10,7 @@ set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
 " Permitir moverse de buffers sin guardar
 set hidden
 " Marca de los 80 carácteres
-set colorcolumn=80
+set colorcolumn=81
 " Activar número de línea en la línea actual
 set nu
 " Activar números relativos para el resto de las líneas
