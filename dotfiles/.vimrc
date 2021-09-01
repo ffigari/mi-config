@@ -47,6 +47,7 @@ noremap <C-k> <C-w><C-j>
 noremap <C-j> <C-w><C-h>
 
 let mapleader=' '
+nnoremap <Leader>b :Buffers<CR>
 nnoremap <Leader>f :GFiles<CR>
 nnoremap <Leader>.f :Files<CR>
 vnoremap <Leader>r "zy:%s/\<<C-r>z\>/<C-r>z/g<left><left>
