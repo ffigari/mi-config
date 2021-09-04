@@ -8,6 +8,7 @@ dotfiles_paths=(
   .gitconfig
   .i3/config
   .Xresources
+  .scripts/loaders.sh
 )
 
 move_files_around () {
