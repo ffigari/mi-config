@@ -11,3 +11,6 @@
 [alias]
 	tree = log --graph --decorate --pretty=oneline --abbrev-commit
 	trea = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	fetc = fetch --atomic --tags --prune --prune-tags
+[difftool "vimdiff"]
+	cmd = vimdiff \"$LOCAL\" \"$REMOTE\"

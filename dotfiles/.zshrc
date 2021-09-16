@@ -16,4 +16,4 @@ chpwd () {
 }
 
 alias load-node="load-node"
-alias tree="tree --filelimit=35 -L 2 --dirsfirst --noreport"
+alias tree="tree --filelimit=35 -L 2 --dirsfirst --noreport -I 'node_modules|package-lock.json'"
