@@ -35,6 +35,8 @@ set foldlevel=2
 set lazyredraw
 " Mostrar siempre la barra de arriba con los nombres de los archivos
 set showtabline=2
+" Show the command being inputed (https://superuser.com/questions/165536)
+set showcmd
 
 noremap ñ l
 noremap l k
