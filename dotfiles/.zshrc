@@ -1,7 +1,10 @@
 export ZSH="/home/francisco/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
-plugins=(git fzf)
+plugins=(fzf)
 source $ZSH/oh-my-zsh.sh
+
+PROMPT="%(?:%{$fg_bold[green]%}:%{$fg_bold[red]%})➜ %{$fg[cyan]%}%c%{$reset_color%} "
+
 export EDITOR='vim'
 
 source $HOME/.scripts/loaders.sh
