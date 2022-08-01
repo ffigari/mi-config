@@ -20,3 +20,4 @@ chpwd () {
 
 alias load-node="load-node"
 alias tree="tree --filelimit=35 -L 2 --dirsfirst --noreport -I 'node_modules|package-lock.json|__pycache__'"
+alias ls="ls --color=tty --group-directories-first -o"
